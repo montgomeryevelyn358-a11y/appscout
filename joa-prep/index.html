@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>JOA Prep: Support</title>
+<meta name="description" content="Support and FAQ for JOA Prep, unofficial practice for the Job Opportunities Assessment: 51 questions in 20 minutes.">
+<style>
+:root {
+  --bg: #F2F3F8; --card: #FFFFFF; --soft: #E4E8FD; --ink: #121628; --sub: #596079; --line: #DCE0EB;
+  --primary: #2B44D6; --primary-ink: #1D30A3; --on-primary: #FFFFFF; --bar: #2B44D6; --on-bar: #FFFFFF;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0D1020; --card: #171B31; --soft: #252D60; --ink: #EDEFF8; --sub: #9AA1BB; --line: #2A3051;
+    --primary: #8C9CFF; --primary-ink: #B9C3FF; --on-primary: #0D1020; --bar: #171B31; --on-bar: #EDEFF8;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 18px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+.skip { position: absolute; left: -999px; top: 0; background: var(--card); color: var(--primary-ink); padding: 8px 12px; }
+.skip:focus { left: 8px; top: 8px; z-index: 2; }
+header.top { background: var(--bar); color: var(--on-bar); padding: 14px 16px; border-bottom: 1px solid var(--line); }
+header.top .wrap { max-width: 720px; margin: 0 auto; display: flex; gap: 10px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+header.top a { color: var(--on-bar); font-weight: 700; text-decoration: none; }
+header.top .app { display: inline-flex; align-items: center; gap: 10px; }
+.mark { display: inline-grid; grid-template-columns: repeat(3, 6px); gap: 2px; padding: 5px; border-radius: 7px; background: rgba(255,255,255,0.18); }
+.mark i { width: 6px; height: 6px; border-radius: 1.5px; background: currentColor; opacity: 0.95; }
+.mark i.q { background: #F5A524; opacity: 1; }
+header.top .by { font-weight: 500; font-size: 15px; opacity: 0.9; }
+main { max-width: 720px; margin: 0 auto; padding: 20px 16px 40px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 8px 0 12px; letter-spacing: -0.01em; }
+h2 { font-size: 21px; line-height: 1.3; margin: 28px 0 8px; }
+p, li { margin: 0 0 12px; }
+ul { padding-left: 22px; }
+a { color: var(--primary-ink); }
+@media (prefers-color-scheme: dark) { a { color: var(--primary); } }
+a:focus-visible, summary:focus-visible { outline: 3px solid #F5A524; outline-offset: 2px; border-radius: 4px; }
+.lead { font-size: 20px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin: 16px 0; }
+.card h2 { margin-top: 0; }
+.note { background: var(--soft); border-radius: 14px; padding: 14px 16px; margin: 16px 0; }
+.note strong { display: block; margin-bottom: 4px; }
+.sub { color: var(--sub); font-size: 15px; }
+.facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 16px 0; }
+.facts div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; text-align: center; }
+.facts b { display: block; font: 700 26px/1.2 ui-monospace, "SF Mono", Menlo, Consolas, monospace; color: var(--primary-ink); }
+@media (prefers-color-scheme: dark) { .facts b { color: var(--primary); } }
+.facts span { color: var(--sub); font-size: 15px; }
+details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; margin: 10px 0; }
+summary { font-weight: 700; cursor: pointer; }
+details p { margin: 10px 0 0; }
+footer { max-width: 720px; margin: 0 auto; padding: 0 16px 40px; color: var(--sub); font-size: 15px; }
+footer nav a { display: inline-block; margin: 0 14px 8px 0; }
+@media (max-width: 420px) { .facts b { font-size: 22px; } h1 { font-size: 26px; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+  <a class="app" href="./" aria-label="JOA Prep support home"><span class="mark" aria-hidden="true"><i></i><i></i><i class="q"></i><i></i><i></i><i></i><i></i><i></i><i></i></span>JOA Prep</a>
+  <span class="by">App Scout Montgomery</span>
+</div></header>
+<main id="main">
+  <h1>JOA Prep: Support</h1>
+  <p class="lead">JOA Prep is an unofficial practice app for the Job Opportunities Assessment (JOA), the aptitude test used in Australian Defence Force recruiting. It helps you get used to the format and the pace: 51 questions in 20 minutes.</p>
+
+  <div class="facts" role="list" aria-label="The format">
+    <div role="listitem"><b>51</b><span>questions</span></div>
+    <div role="listitem"><b>20:00</b><span>minutes</span></div>
+    <div role="listitem"><b>3</b><span>question types</span></div>
+  </div>
+
+  <p>The app has 8 full timed mocks and 600+ original practice questions in three areas: numerical, verbal and abstract reasoning. You answer the way the real assessment asks: type in a number, or choose two. Every question has worked steps and a quick tip. There is also a short daily session, a 60-second number sequence sprint, a mistakes list that brings missed questions back after 1, 3 and 7 days, and a record of your results over time.</p>
+  <p>Mock 1, the first 20 questions of each question type and one sprint a day are free. Full Access unlocks everything with one payment of A$14.99. There is no subscription, no account and no ads, and the app works offline.</p>
+
+  <div class="note" role="note">
+    <strong>Unofficial</strong>
+    This app is not made by, endorsed by or connected to the Australian Defence Force, Defence Force Recruiting or the Department of Defence. Every question is original.
+  </div>
+
+  <div class="card">
+    <h2>Contact us</h2>
+    <p>Email <a href="mailto:support@ludunbio.cn">support@ludunbio.cn</a>. We reply within 2 days. If something is not working, please mention your iPhone model and iOS version.</p>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+
+  <details>
+    <summary>How do I restore my purchase on a new phone or after reinstalling?</summary>
+    <p>Open the app, go to <strong>Settings</strong> and tap <strong>Restore purchase</strong>. Use the same Apple ID you bought Full Access with. Restoring is free and does not charge you again.</p>
+    <p>If the app says no purchase was found, you may be signed in with a different Apple ID. Check it under Settings › Apple Account › Media &amp; Purchases on your iPhone, then try again.</p>
+  </details>
+
+  <details>
+    <summary>Is this a subscription? Will I be charged again?</summary>
+    <p>No. Full Access is one payment through the App Store. There is no subscription, no trial and nothing renews.</p>
+  </details>
+
+  <details>
+    <summary>The purchase says &ldquo;Waiting for approval&rdquo;.</summary>
+    <p>Ask to Buy is turned on for your Apple ID, so a family organiser needs to approve the purchase. Everything unlocks as soon as it is approved.</p>
+  </details>
+
+  <details>
+    <summary>Where is my progress stored? Do I need an account?</summary>
+    <p>There is no account. Your answers, results, mistakes list, test date and settings are stored only on your device. We have no server and cannot see any of it. Nothing is sent anywhere.</p>
+    <p>Because your data stays on the device, progress does not move to a new phone. Your Full Access purchase does: use Restore purchase.</p>
+  </details>
+
+  <details>
+    <summary>How do I reset my progress and start again?</summary>
+    <p>Delete the app from your iPhone and install it again. Deleting the app erases everything it stored on that device. Afterwards, tap <strong>Restore purchase</strong> in Settings to get Full Access back at no charge.</p>
+  </details>
+
+  <details>
+    <summary>Does the clock stop if I leave the app during a mock?</summary>
+    <p>No. In this app the clock keeps running while you are away, so a mock always means 20 straight minutes. When you come back you can resume, submit or quit. Set aside 20 quiet minutes before you start.</p>
+  </details>
+
+  <details>
+    <summary>Is this the official JOA? Can it promise a score?</summary>
+    <p>No. JOA Prep is independent practice and is not connected to the ADF, Defence Force Recruiting or the Department of Defence. The questions are original, not real test questions. The app helps you learn the format and the pace. Nobody can guarantee a result, and practice results in the app are not an official score. For official information, see the <a href="https://www.adfcareers.gov.au/-/media/DFR/Files/Guide-to-ADF-Aptitude-Testing.pdf">Guide to ADF Aptitude Testing</a> on the ADF Careers website.</p>
+  </details>
+
+  <details>
+    <summary>I think an answer is wrong. How do I report it?</summary>
+    <p>In the answer review, tap <strong>Report a problem</strong> on the question, choose what is wrong and add a note if you like. The app opens an email in your own mail app with the question ID filled in. You decide whether to send it. You can also write to <a href="mailto:support@ludunbio.cn">support@ludunbio.cn</a>.</p>
+  </details>
+
+  <details>
+    <summary>Can I get a refund?</summary>
+    <p>App Store refunds are handled by Apple. Go to <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> and choose the purchase. We cannot issue refunds ourselves.</p>
+  </details>
+</main>
+<footer>
+  <nav aria-label="Pages">
+    <a href="./" aria-current="page">Support</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Use</a>
+  </nav>
+  <p>Unofficial practice app by App Scout Montgomery, published by Guangdong Green Shield Biotechnology Co., Ltd. Not affiliated with the ADF or the Department of Defence.</p>
+</footer>
+</body>
+</html>
